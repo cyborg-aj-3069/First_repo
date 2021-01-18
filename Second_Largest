@@ -1,0 +1,30 @@
+import java.util.*;
+class Secondlargest
+{
+    public static void main(String args[])
+    {
+       Scanner sc = new Scanner(System.in);
+       int m[]=new int[10];
+       int i,s=0,max=0;
+for(i=0;i<10;i++)
+{
+    System.out.println("Enter any number");
+    m[i]=sc.nextInt();
+}
+
+System.out.println("The array is =");
+for(i=0;i<10;i++)
+{
+Arrays.sort(m);
+System.out.print(" "+m[i]);
+if(m[i]>max)
+{max=m[i];}
+}
+
+System.out.println(" ");
+System.out.print("Largest no. is "+max);
+System.out.print("Second Largest no. is "+m[8]);
+
+
+}
+}
