@@ -1,2 +1,2 @@
-# First_repo For Java
+# Java Repo
 Getting Started with JAVA!!
